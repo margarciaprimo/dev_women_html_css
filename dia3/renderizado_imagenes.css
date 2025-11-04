@@ -22,8 +22,8 @@ body {
   .rotated-image {
     width: 100%;
     height: auto;
-    image-orientation: 60deg; /* Rotar la imagen */
-    transform: rotate(60deg);
+    image-orientation: 180deg; /* Rotar la imagen */
+    transform: rotate(180deg);
   }
   
   .aspect-ratio-container {
@@ -40,7 +40,7 @@ body {
   
  
   .espejo-horizontal {
-    transform: scaleY(-1); /* Refleja horizontalmente */
+    transform: scaleY(-0.8); /* Refleja horizontalmente */
   }
 
 

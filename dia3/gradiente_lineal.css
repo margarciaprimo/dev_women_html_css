@@ -15,5 +15,5 @@ body {
     color: white;
     font-size: 3rem;
     text-align: center;
-    background: repeating-linear-gradient(to right, red, #202fa1  20% ); /* Gradiente de color */  
+    background: linear-gradient(to bottom, rgb(168, 164, 68), #930ed5 , #cd4416 , blue); /* Gradiente de color */  
 }

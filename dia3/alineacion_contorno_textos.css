@@ -21,7 +21,7 @@ body {
 .stroke-text {
     font-size: 3em;
     color: transparent;
-    -webkit-text-stroke: 3px #5f47ff; /* Contorno rojo */
+    -webkit-text-stroke: 1px #37824b; /* Contorno  */
     text-align: center;
     margin: 20px 0;
 }
@@ -29,7 +29,7 @@ body {
 .shadow-text {
     font-size: 2em;
     color: #333;
-    text-shadow: 2px 2px 5px rgba(74, 18, 109, 0.5), 4px 4px 10px rgba(71, 255, 132, 0.7); /* Sombra múltiple */
+    text-shadow:  1px 1px 10px rgba(89, 71, 255, 0.7); /* Sombra múltiple */
     margin: 20px 0;
 }
 

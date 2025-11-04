@@ -15,6 +15,6 @@ body {
     color: white;
     font-size: 3rem;
     text-align: center;
-    background: radial-gradient(#1838c7, yellow,red,green); /* Gradiente radial */
+    background: radial-gradient(#1838c7, yellow); /* Gradiente radial */
     border-radius: 20px;
 }
