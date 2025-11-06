@@ -65,8 +65,8 @@ nav a:hover {
 
 /* Sección de múltiples columnas */
 .multicolumn-section {
-    column-count: 3;
-    column-gap: px;
+    column-count: 4;
+    column-gap: 5px;
     background-color: #bcb0b0;
     padding: 20px;
     border-radius: 8px;
