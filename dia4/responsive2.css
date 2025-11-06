@@ -1,0 +1,123 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffa500;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Media Queries */
+  
+  /* Pantallas de tablet (max-width: 768px) */
+  @media (max-width: 1024px) {
+    header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    main {
+      padding: 15px;
+    }
+  }
+
+  /* Pantallas de tablet (max-width: 768px) */
+  @media (min-width: 768px) and (max-width: 1024px) and (max-resolution: 120dpi)  {
+    body {
+        background-color: rgb(18, 124, 160);
+    }
+
+    header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    main {
+      padding: 15px;
+    }
+  }
+  
+  /* Pantallas móviles (max-width: 480px) */
+  @media (max-width: 480px) and (orientation: landscape) {
+    body {
+        background-color: rgb(148, 18, 160);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    footer {
+      font-size: 0.9rem;
+    }
+  }
+
+    /* Pantallas móviles (max-width: 480px) */
+    @media (max-width: 480px) and (orientation: portrait) {
+        body {
+            background-color: rgb(160, 30, 18);
+        }
+    
+        header h1 {
+          font-size: 1.5rem;
+        }
+      
+        header nav ul {
+          flex-direction: column;
+          gap: 5px;
+        }
+      
+        main {
+          padding: 10px;
+        }
+      
+        footer {
+          font-size: 0.9rem;
+        }
+      }
+      
+  

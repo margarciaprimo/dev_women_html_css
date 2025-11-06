@@ -1,13 +1,14 @@
 /* Variables globales */
 :root {
-    --card-bg-color: #f9f9f9;
-    --card-border-color: #ddd;
-    --card-title-color: #333;
-    --card-description-color: #555;
-    --card-shadow-color: rgba(0, 0, 0, 0.1);
+    --card-bg-color: #455879;
+    --card-border-color: #2aa632;
+    --card-title-color: #d18241;
+    --card-description-color: #6dca78;
+    --card-shadow-color: rgba(64, 241, 69, 0.903);
     --card-border-radius: 10px;
     --card-padding: 16px;
     --card-font-family: Arial, sans-serif;
+    --card-bg-color-2: #68277f;
   }
   
   /* Estilo general del body */
@@ -25,7 +26,7 @@
   /* Estilos de la tarjeta */
   .card {
     background-color: var(--card-bg-color);
-    border: 1px solid var(--card-border-color);
+    border: 10px solid var(--card-border-color);
     border-radius: var(--card-border-radius);
     box-shadow: 0 4px 8px var(--card-shadow-color);
     padding: var(--card-padding);
@@ -50,3 +51,13 @@
     font-size: 14px;
   }
   
+  /* Estilos de la tarjeta */
+  .card2 {
+    background-color: var(--card-bg-color-2);
+    border: 10px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    box-shadow: 0 4px 8px var(--card-shadow-color);
+    padding: var(--card-padding);
+    text-align: center;
+    width: 250px;
+  }

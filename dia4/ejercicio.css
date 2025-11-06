@@ -1,0 +1,69 @@
+/* Tipografía y estilos generales */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Fondo con degradado y una imagen */
+    background: linear-gradient(
+        rgba(255, 200, 200, 0.6),
+        rgba(255, 220, 220, 0.6)
+    ),
+    url('fondo.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Tarjeta */
+.tarjeta {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Título */
+.tarjeta h1 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.tarjeta h1 span {
+    color: #e07a9d;
+}
+
+/* Texto */
+.tarjeta p {
+    color: #555;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+/* Botón */
+button {
+    background-color: #e07a9d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c65f83;
+}

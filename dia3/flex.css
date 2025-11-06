@@ -12,7 +12,7 @@ h1 {
 
 .flex-container {
     display: flex;
-    flex-direction: row-reverse; /* Organiza en fila */
+    flex-direction: row; /* Organiza en fila */
     justify-content: space-around; /* Espacio uniforme alrededor de los ítems */
     align-items: center; /* Centra verticalmente */
     background-color: #007bff;
@@ -32,9 +32,21 @@ h1 {
 }
 
 .flex-item:hover {
-    background-color: #0056b3;
+    background-color: #b30900;
     color: #fff;
     cursor: pointer;
+}
+
+.flex-container :nth-child(1) {
+    order: 2;
+}
+
+.flex-container :nth-child(2) {
+    order: 3;
+}
+
+.flex-container :nth-child(3) {
+    order: 1;
 }
 
 .note {
